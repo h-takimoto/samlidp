@@ -48,7 +48,7 @@ $metadata['https://legacy.example.edu'] = [
     //'signature.algorithm' => 'http://www.w3.org/2000/09/xmldsig#rsa-sha1',
 ];
 
-$metadata['https://aoprototest-php3.azurewebsites.net/www/'] = [
+$metadata['https://aoprototest-php3.azurewebsites.net/www/saml2/idp/metadata.php/default-sp'] = [
     'SingleLogoutService' => [
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',
