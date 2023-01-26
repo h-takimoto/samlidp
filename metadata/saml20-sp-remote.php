@@ -52,18 +52,18 @@ $metadata['https://aoprototest-php3.azurewebsites.net/www/saml2/idp/metadata.php
     'SingleLogoutService' => [
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect',
-            'Location' => 'https://aoprototest-php3.azurewebsites.net:443/www/module.php/saml/sp/saml2-logout.php/default-sp',
+            'Location' => 'https://aoprototest-php3.azurewebsites.net/www/module.php/saml/sp/saml2-logout.php/default-sp',
         ],
     ],
     'AssertionConsumerService' => [
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST',
-            'Location' => 'https://aoprototest-php3.azurewebsites.net:443/www/module.php/saml/sp/saml2-acs.php/default-sp',
+            'Location' => 'https://aoprototest-php3.azurewebsites.net/www/module.php/saml/sp/saml2-acs.php/default-sp',
             'index' => 0,
         ],
         [
             'Binding' => 'urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact',
-            'Location' => 'https://aoprototest-php3.azurewebsites.net:443/www/module.php/saml/sp/saml2-acs.php/default-sp',
+            'Location' => 'https://aoprototest-php3.azurewebsites.net/www/module.php/saml/sp/saml2-acs.php/default-sp',
             'index' => 1,
         ],
     ],

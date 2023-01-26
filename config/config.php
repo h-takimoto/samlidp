@@ -29,7 +29,7 @@ $config = [
      * external url, no matter where you come from (direct access or via the
      * reverse proxy).
      */
-    'baseurlpath' => 'https://aoprototest-php2.azurewebsites.net:443/www/',
+    'baseurlpath' => 'https://aoprototest-php2.azurewebsites.net/www/',
 
     /*
      * The 'application' configuration array groups a set configuration options
